@@ -75,10 +75,8 @@ class PastaChef:
         self.builder.build_sauce()
         self.builder.build_topping()
         self.builder.build_dressing()
-
     def get_pasta(self):
         return self.builder.get_pasta()
-
 
 # Client Code
 def main():
@@ -94,7 +92,6 @@ def main():
     chef.make_pasta()
     penne_pasta = chef.get_pasta()
     print(penne_pasta)
-
 
 if __name__ == "__main__":
     main()
